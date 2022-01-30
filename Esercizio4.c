@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
         printf("La radice vale: %lf \n", radice);
     } while (rapporto >= 0);
 
-    if(numero1 && numero2)
+    if(numero1 == 0 && numero2 == 0)
     {
         printf("Il programma è terminato perchè entrambi i numeri sono uguali a 0 \n");
     }
