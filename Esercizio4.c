@@ -24,6 +24,13 @@ int main(int argc, char *argv[])
         printf("La radice vale: %lf \n", radice);
     } while (rapporto >= 0);
 
-    printf("Il programma è terminato perchè le radici quadrate di un numero negativo non esistono \n");
+    if(numero1 && numero2)
+    {
+        printf("Il programma è terminato perchè entrambi i numeri sono uguali a 0 \n");
+    }
+    else if (rapporto < 0)
+    {
+        printf("Il programma è terminato perchè le radici quadrate di un numero negativo non esistono \n");
+    }
     return 0;
 }
